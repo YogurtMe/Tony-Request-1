@@ -1,10 +1,14 @@
+body {
+  font-size: 3vw;
+}
+
 .cont {
   display: flex;
   margin: auto;
   flex-direction: column;
   height: 70vw;
   width: 70vw;
-  border: 0.5px solid black;
+  border: 0.2vw solid black;
   box-sizing: border-box;
 }
 .cont1 {
@@ -12,7 +16,7 @@
   margin: auto;
   height: 20vw;
   width: 70vw;
-  border: 0.5px solid black;
+  border: 0.2vw solid black;
   box-sizing: border-box;
 }
 
@@ -36,18 +40,17 @@
   width: 10vw;
   align-items: center;
   justify-content: center;
-  border: 0.5px solid black;
+  border: 0.2vw solid black;
   box-sizing: border-box;
 }
 
 #topText {
   text-align: center;
   margin: auto;
-  font-size: 15px;
 }
 
 .active {
-  border: 2px solid red;
+  border: 0.3vw solid red;
   background-color: rgba(255,0,0,0.3);
 }
 
@@ -55,7 +58,7 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10vw;
   height: 45vw;
   width: 45vw;
 }
@@ -74,7 +77,7 @@
 .upButton {
   height: 15vw;
   width: 15vw;
-  border: 1px solid black;
+  border: 0.6vw solid black;
   border-bottom: none;
   box-sizing: border-box;
 }
@@ -86,7 +89,7 @@
 .leftButton {
   height: 15vw;
   width: 15vw;
-  border: 1px solid black;
+  border: 0.6vw solid black;
   border-right: none;
   box-sizing: border-box;
 }
@@ -98,7 +101,7 @@
 .rightButton {
   height: 15vw;
   width: 15vw;
-  border: 1px solid black;
+  border: 0.6vw solid black;
   border-left: none;
   box-sizing: border-box;
 }
@@ -110,22 +113,11 @@
 .downButton {
   height: 15vw;
   width: 15vw;
-  border: 1px solid black;
+  border: 0.6vw solid black;
   border-top: none;
   box-sizing: border-box;
 }
 
 .downButton:active {
-  background-color: gray;
-}
-
-.centerButton {
-  height: 15vw;
-  width: 15vw;
-  border: 1px solid black;
-  box-sizing: border-box;
-}
-
-.centerButton:active {
   background-color: gray;
 }
