@@ -121,3 +121,17 @@ body {
 .downButton:active {
   background-color: gray;
 }
+
+.centerButton {
+  display: flex;
+  height: 15vw;
+  width: 15vw;
+  border: 0.6vw solid black;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerButton:active {
+  background-color: gray;
+}
